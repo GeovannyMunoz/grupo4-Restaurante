@@ -1,0 +1,3 @@
+restaurante_homepage:
+    path:     /
+    defaults: { _controller: RestauranteBundle:Default:index }
