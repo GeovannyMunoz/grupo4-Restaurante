@@ -1,28 +1,18 @@
 require 'test_helper'
 
 class ClientesControllerTest < ActionDispatch::IntegrationTest
-  test "should get new" do
-    get clientes_new_url
+  test "should get registrarCliente" do
+    get clientes_registrarCliente_url
     assert_response :success
   end
 
-  test "should get add" do
-    get clientes_add_url
+  test "should get verCliente" do
+    get clientes_verCliente_url
     assert_response :success
   end
 
-  test "should get remove" do
-    get clientes_remove_url
-    assert_response :success
-  end
-
-  test "should get destroy" do
-    get clientes_destroy_url
-    assert_response :success
-  end
-
-  test "should get show" do
-    get clientes_show_url
+  test "should get buscarCliente" do
+    get clientes_buscarCliente_url
     assert_response :success
   end
 

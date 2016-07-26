@@ -1,16 +1,10 @@
 class ClientesController < ApplicationController
-  def new
+  def registrarCliente
   end
 
-  def add
+  def verCliente
   end
 
-  def remove
-  end
-
-  def destroy
-  end
-
-  def show
+  def buscarCliente
   end
 end

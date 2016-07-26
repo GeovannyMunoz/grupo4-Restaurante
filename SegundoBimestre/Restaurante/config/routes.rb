@@ -1,13 +1,9 @@
 Rails.application.routes.draw do
-  get 'clientes/new'
+  get 'clientes/registrarCliente'
 
-  get 'clientes/add'
+  get 'clientes/verCliente'
 
-  get 'clientes/remove'
-
-  get 'clientes/destroy'
-
-  get 'clientes/show'
+  get 'clientes/buscarCliente'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
